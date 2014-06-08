@@ -1,6 +1,6 @@
 var map = L.map('map').setView([45.536555, -122.634681], 13);
 
-L.esri.basemapLayer('Topographic').addTo(map);
+L.esri.basemapLayer('Streets').addTo(map);
 
 var trailFeatures = omnivore.gpx('assets/data/WNBR-lat-long.gpx').addTo(map);
 
